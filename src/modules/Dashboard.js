@@ -1,7 +1,6 @@
 import React from "react";
 import { useState } from "react";
-import Navbar from "./Navbar";
-import 'bootstrap/dist/css/bootstrap.min.css';
+import "bootstrap/dist/css/bootstrap.min.css";
 export default function Dashboard() {
   const [list, setList] = useState({});
   const display = () => {
@@ -13,7 +12,6 @@ export default function Dashboard() {
       body: JSON.stringify({
         hostelid: sessionStorage.getItem("key"),
       }),
-      
     }).then((response) => {
       response.json().then((data) => {
         console.log(data);
@@ -21,11 +19,5 @@ export default function Dashboard() {
       });
     });
   };
-  return (
-    <>
-    <Navbar/>
-    </>
-      
-    
-  );
+  return <></>;
 }
