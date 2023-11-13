@@ -1,0 +1,149 @@
+
+.inout{
+    padding-left:20%;
+    padding-top: 15px;
+    height: 100vh;
+    margin-top: 10%;
+    margin-left: 13.5%;
+}
+.req{
+   
+    padding: 10px;
+    height: 70px;
+}
+.inreq{
+    padding: 8px;
+    font-size: 18px;
+    margin-right: 10px;
+    background-color: gra;
+    border-radius: 10px;
+    box-shadow: -1px 1px 5px;
+    outline: none;
+    border: none;
+    
+}
+.inreq:hover{
+    background-color: rgb(189, 186, 186);
+}
+.outreq{
+    padding: 8px;
+    font-size: 18px;
+    margin-right: 10px;
+    background-color:gra;
+    border-radius: 10px;
+    box-shadow: -1px 1px 5px;
+    border: none;
+    outline: none;
+    
+}
+.outreq:hover{
+    background-color: rgb(189, 186, 186);
+}
+
+.reqbox{
+    border: solid 1px;
+    padding: 10px;
+    width: 60%;
+    margin-top: 20px;
+    box-shadow: -1px 1px 5px;
+    border: none;
+}
+.reqbox h2{
+    display: flex;
+    justify-content: center;
+    font-weight: 600;
+    
+}
+.reqbox p{
+    color: red;
+    font-weight: 700;
+}
+.calender1{
+    display: flex;
+    position: relative;
+}
+.calender1 h3{
+    margin-right: 20px;
+}
+.from{
+    outline: none;
+   
+}
+.calender2{
+    display: flex;
+    position: relative;
+}
+.calender2 h3{
+    margin-right: 58.5px;
+}
+.to{
+    outline: none;
+    
+}
+.days{
+    display: flex;
+    
+}
+.days input{
+    outline: none;
+    
+    padding-left: 10px;
+    font-size: 15px;
+}
+.submit{
+    display: flex;
+    justify-content: center;
+    padding: 10px;
+    
+}
+.submit button{
+    padding: 5px 13px;
+    border-radius: 10px;
+    background-color: gra;
+    outline: none;
+    border: none;
+    font-size: 20px;
+    font-weight: 500;
+    box-shadow: -1px 1px 5px;
+}
+.submit button:hover{
+    background-color: rgb(189, 186, 186);
+}
+
+.hist{
+    padding-left: 25%;
+    padding-right: 5%;
+    padding-bottom: 5%;
+    margin-left: 10%;
+}
+.history{
+    display: flex;
+    padding: 2%;
+    width: 70%;
+    height: 50vh;
+    border: 1px solid;
+    justify-content: space-between;
+    overflow: scroll;
+}
+
+.guideline{
+    position: absolute;
+    top: 32%;
+    right: 3%;
+    margin-top: 5%;
+    width: 22%;
+    box-shadow: -1px 1px 5px black;
+    padding: 5px;
+    font-weight: 500;
+    color: red;
+    
+}
+.guideline h3{
+    color: black;
+    
+}
+.guide-icon{
+    width: 40px;
+    height: 40px;
+    color: rgb(153, 141, 141);
+}
