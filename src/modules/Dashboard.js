@@ -1,5 +1,7 @@
 import React from "react";
+import "./dashboard.css";
 import { useState } from "react";
+
 import "bootstrap/dist/css/bootstrap.min.css";
 export default function Dashboard() {
   const [list, setList] = useState({});
@@ -19,5 +21,11 @@ export default function Dashboard() {
       });
     });
   };
-  return <></>;
+  return (
+    <div className="dashboard">
+      <div className="dash-div">Personal Details</div>
+      <div className="dash-div">College Details</div>
+      <div className="dash-div">Hostel Details</div>
+    </div>
+  );
 }
