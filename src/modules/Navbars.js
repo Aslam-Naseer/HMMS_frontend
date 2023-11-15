@@ -1,6 +1,3 @@
-import { TiThMenu } from "react-icons/ti";
-import { BiSolidBowlRice, BiBookContent, BiSolidHome } from "react-icons/bi";
-
 import { IoMdNotifications } from "react-icons/io";
 import pfp from "../assets/noavatar.png";
 
