@@ -11,8 +11,6 @@ import { Link, useLocation } from "react-router-dom";
 const Navbars = () => {
   const { pathname } = useLocation();
 
-  console.log(pathname);
-
   return (
     <div className="head-nav">
       <div className="head-left">
