@@ -14,7 +14,11 @@ function App() {
         <Route path="/" element={<Login />} />
         <Route path="/reg" element={<Register />} />
         <Route path="/home" element={<Dashboard />} />
+<<<<<<< HEAD
         <Route path="/home/mess" element={<Mess1 />} />
+=======
+        <Route path="/mess" element={<Mess1 />} />
+>>>>>>> cad6443846f95965544fefd3818d51ba031beb77
       </Routes>
     </Router>
   );
