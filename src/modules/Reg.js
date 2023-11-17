@@ -41,58 +41,7 @@ export default function Reg(props) {
     <div className="body1">
       <section>
         {" "}
-        <span></span> <span></span> <span></span> <span></span> <span></span>{" "}
-        <span></span> <span></span> <span></span> <span></span> <span></span>{" "}
-        <span></span> <span></span> <span></span> <span></span> <span></span>{" "}
-        <span></span> <span></span> <span></span> <span></span> <span></span>{" "}
-        <span></span> <span></span> <span></span> <span></span> <span></span>{" "}
-        <span></span> <span></span> <span></span> <span></span> <span></span>{" "}
-        <span></span> <span></span> <span></span> <span></span> <span></span>{" "}
-        <span></span> <span></span> <span></span> <span></span> <span></span>{" "}
-        <span></span> <span></span> <span></span> <span></span> <span></span>{" "}
-        <span></span> <span></span> <span></span> <span></span> <span></span>{" "}
-        <span></span> <span></span> <span></span> <span></span> <span></span>{" "}
-        <span></span> <span></span> <span></span> <span></span> <span></span>{" "}
-        <span></span> <span></span> <span></span> <span></span> <span></span>{" "}
-        <span></span> <span></span> <span></span> <span></span> <span></span>{" "}
-        <span></span> <span></span> <span></span> <span></span> <span></span>{" "}
-        <span></span> <span></span> <span></span> <span></span> <span></span>{" "}
-        <span></span> <span></span> <span></span> <span></span> <span></span>{" "}
-        <span></span> <span></span> <span></span> <span></span> <span></span>{" "}
-        <span></span> <span></span> <span></span> <span></span> <span></span>{" "}
-        <span></span> <span></span> <span></span> <span></span> <span></span>{" "}
-        <span></span> <span></span> <span></span> <span></span> <span></span>{" "}
-        <span></span> <span></span> <span></span> <span></span> <span></span>{" "}
-        <span></span> <span></span> <span></span> <span></span> <span></span>{" "}
-        <span></span> <span></span> <span></span> <span></span> <span></span>{" "}
-        <span></span> <span></span> <span></span> <span></span> <span></span>{" "}
-        <span></span> <span></span> <span></span> <span></span> <span></span>{" "}
-        <span></span> <span></span> <span></span> <span></span> <span></span>{" "}
-        <span></span> <span></span> <span></span> <span></span> <span></span>{" "}
-        <span></span> <span></span> <span></span> <span></span> <span></span>{" "}
-        <span></span> <span></span> <span></span> <span></span> <span></span>{" "}
-        <span></span> <span></span> <span></span> <span></span> <span></span>{" "}
-        <span></span> <span></span> <span></span> <span></span> <span></span>{" "}
-        <span></span> <span></span> <span></span> <span></span> <span></span>{" "}
-        <span></span> <span></span> <span></span> <span></span> <span></span>{" "}
-        <span></span> <span></span> <span></span> <span></span> <span></span>{" "}
-        <span></span> <span></span> <span></span> <span></span> <span></span>{" "}
-        <span></span> <span></span> <span></span> <span></span> <span></span>{" "}
-        <span></span> <span></span> <span></span> <span></span> <span></span>{" "}
-        <span></span> <span></span> <span></span> <span></span> <span></span>{" "}
-        <span></span> <span></span> <span></span> <span></span> <span></span>{" "}
-        <span></span> <span></span> <span></span> <span></span> <span></span>{" "}
-        <span></span> <span></span> <span></span> <span></span> <span></span>{" "}
-        <span></span> <span></span> <span></span> <span></span> <span></span>{" "}
-        <span></span> <span></span> <span></span> <span></span> <span></span>{" "}
-        <span></span> <span></span> <span></span> <span></span> <span></span>{" "}
-        <span></span> <span></span> <span></span> <span></span> <span></span>{" "}
-        <span></span> <span></span> <span></span> <span></span> <span></span>{" "}
-        <span></span> <span></span> <span></span> <span></span> <span></span>{" "}
-        <span></span> <span></span> <span></span> <span></span> <span></span>{" "}
-        <span></span> <span></span> <span></span> <span></span> <span></span>{" "}
-        <span></span> <span></span> <span></span> <span></span> <span></span>{" "}
-        <span></span> <span></span> <span></span> <span></span> <span></span>
+        
         <div className="signin">
           <div className="content">
             <h2>Sign Up</h2>
