@@ -29,7 +29,7 @@ const logusesr = () => {
           // Redirect to home page
           window.location.href = "/home";
         } else {
-          // Handle the response as needed
+          alert("Invalid username or password ");
         }
       })
       .catch((error) => {
