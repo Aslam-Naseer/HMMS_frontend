@@ -27,9 +27,14 @@ export default function Reg(props) {
       .then((data) => {
         console.log(data);
         if (data.status === 200) {
-          // User registration successful, you can redirect or perform other actions here
-        } else {
-          // Handle the response as needed
+          window.location.href = "/login";
+        } else if (data.status === 404) {
+          // show a alert
+          alert("User already exists");
+        }
+        else
+        {
+          alert("Please enter valid details");
         }
       })
       .catch((error) => {
