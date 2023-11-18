@@ -1,6 +1,6 @@
 
 .inout{
-    padding-left:20%;
+    padding-left:10%;
     padding-top: 15px;
     height: 100vh;
     margin-top: 10%;
@@ -115,8 +115,10 @@
     padding-right: 5%;
     padding-bottom: 5%;
     margin-left: 10%;
+   
+    padding-top: 20%;
 }
-.history{
+/*.history{
     display: flex;
     padding: 2%;
     width: 70%;
@@ -125,18 +127,18 @@
     justify-content: space-between;
     overflow: scroll;
 }
-
+*/
 .guideline{
     position: absolute;
     top: 32%;
     right: 3%;
     margin-top: 5%;
-    width: 22%;
+    width: 26%;
     box-shadow: -1px 1px 5px black;
     padding: 5px;
     font-weight: 500;
     color: red;
-    
+
 }
 .guideline h3{
     color: black;
@@ -147,3 +149,59 @@
     height: 40px;
     color: rgb(153, 141, 141);
 }
+
+.container {
+    position: relative;
+    top: 50%;
+    left: 30%;
+    max-height: 600px;
+    overflow-y: scroll;
+    -webkit-transform: translate(-50%, -50%);
+    transform: translate(-50%, -50%);
+   /*background-color: aqua;*/
+  }
+  table {
+    width: 100%;
+    height: 800px;
+    border-collapse: collapse;
+    overflow: hidden;
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.1);
+    
+   
+  }
+  th,
+  td {
+    padding: 15px;
+    background-color: rgba(158, 136, 136, 0.2);
+    color: #120101;
+    
+  }
+  th {
+    text-align: left;
+   
+  }
+ 
+  thead th {
+    background-color: #c1c7e1;
+  }
+  tbody tr:hover {
+    background-color: rgba(255, 255, 255, 0.3);
+  }
+ 
+  tbody td {
+    
+   
+    position: relative;
+    padding-left: 10px;
+
+  }
+  tbody td:hover:before {
+    content: "";
+    position: absolute;
+    left: 0;
+    right: 0;
+    top: -9999px;
+    bottom: -9999px;
+    background-color: rgba(255, 255, 255, 0.2);
+    z-index: -1;
+  }
